@@ -19,13 +19,21 @@
  echo str_replace ("World", "Tanja", "Hello World <br>");
 ?>
 <h2 style="text-align:center">Arrays</h2>
+<p> I speak the following languages: </p>
 <?php
 $languages = array("Serbian","English","German","Spanish","Italian");
+rsort($languages);
 
-echo "I speak " . $languages[0] . ", " . $languages[1] . ", " . $languages[2] . ", " . $languages[3] . " and " . $languages[4] . ".<br>";
-echo count($languages);
+$llength = count($languages);
+echo "<br>";
+for($x=0; $x< $llength; $x++) {
+    echo $languages[$x];
+    echo "<br>";
+    echo $llength;
+}
 ?>
 <br>
+
 <h2 style="text-align:center">Variables</h2>
 
 <?php
