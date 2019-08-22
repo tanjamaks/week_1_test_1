@@ -29,8 +29,8 @@ echo "<br>";
 for($x=0; $x< $llength; $x++) {
     echo $languages[$x];
     echo "<br>";
-    echo $llength;
 }
+ echo $llength;
 ?>
 <br>
 
