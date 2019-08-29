@@ -7,7 +7,7 @@
 <body>
 
 <h1>Recursion Example #2: Reading a Tree of Files and Folders</h1>
-<form action="recursive-example-3.php" method="POST">
+<form action="rekurzija.php" method="POST">
     <p>Pretraži željeni folder:</p> <input type="search" style="width:300px" name="unos">
     <input type="submit" value="Pretraži">
 </form>
